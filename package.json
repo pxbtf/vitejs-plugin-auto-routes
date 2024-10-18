@@ -1,0 +1,29 @@
+{
+  "name": "vitejs-plugin-auto-routes",
+  "version": "0.1.0",
+  "description": "基于vite的约定式的路由插件",
+  "main": "dist/index.esm.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "routes",
+    "auto"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "pxbtf",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.24.0"
+  }
+}
